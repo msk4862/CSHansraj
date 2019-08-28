@@ -18,6 +18,10 @@
     border-radius: 0;
 }
 
+.navbar-header {
+    align-items: center;
+}
+
 .navbar-brand {
     padding-top: 25px;
     font-size: 30px; 
@@ -27,6 +31,10 @@
 #logoHRC-img {
     padding-top: 20px;
     padding-left: 10px; 
+}
+
+.navbar-collapse {
+    max-height: 80px;
 }
 
 .navbar-default .navbar-brand { /* Title */
@@ -84,6 +92,11 @@
        
 }
 
+#announc > ul > li {
+    padding: 7px 7px 7px 7px; 
+
+}
+
 #announcTitle {
     text-align: center; 
     padding-bottom:10px;
@@ -103,6 +116,10 @@
     padding-right: 5px;
 }
 
+#achiev > ul > li {
+    padding: 7px 7px 7px 7px; 
+
+}
 
 #achievTitle {
     text-align: center;
@@ -147,8 +164,9 @@
     box-shadow: 5px 4px 8px 0 rgba(0, 0, 0, 0.8), 5px 6px 20px 0 rgba(0, 0, 0, 0.5);
     font-size: 17px;
     font-weight: bold;
-    color: black;
+    color: white;
     text-align: center;
+    padding: 5px 0 10px 0;
     background-color: #1483df;  
 }
 
